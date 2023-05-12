@@ -1,0 +1,11 @@
+{
+  "name": "amd-simplest-example",
+  "version": "1.0.0",
+  "description": "Brief description",
+  "main": "index.html",
+  "scripts": {
+    "run": "npx http-server ./src -o"
+  },
+  "author": "",
+  "license": "MIT"
+}
