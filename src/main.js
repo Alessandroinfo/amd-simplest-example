@@ -1,13 +1,15 @@
+// Configure RequireJS with the base directory, base URL, and module paths
 requirejs.config({
     appDir: ".",
     baseUrl: "",
     paths: {
-        /* Load jquery from cdnjs. On fail, load local file. */
+        // Define the module paths
         'jquery': ['//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min', 'libs/jquery-min']
     }
 });
 
+// Load the "myModule" module and use its "doSomething" method
 require(["myModule"], function (myModule) {
-    // Usa il metodo "doSomething" definito nel modulo
+    // Use the "doSomething" method defined in the module
     myModule.doSomething();
 });

@@ -4,7 +4,7 @@
   "description": "Brief description",
   "main": "index.html",
   "scripts": {
-    "run": "npx http-server ./src -o"
+    "serve": "npx http-server ./src -o"
   },
   "author": "",
   "license": "MIT"
